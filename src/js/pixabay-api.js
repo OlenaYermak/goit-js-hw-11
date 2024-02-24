@@ -9,13 +9,13 @@ function getImages(QUERY) {
   return fetch(URL)
     .then(response => {
       if (!response.ok) {
-        throw new Error('Image error!');
+        throw new Error("Image error!");
       }
 
       return response.json();
     })
     .catch(error => {
-      console.error("Error fetching images:", error);
+      console.error("Error images:", error);
       throw error;
     });
 }

@@ -101,8 +101,11 @@
   height: 32px;
   position: relative;
   border-radius: 50%;
-  color: #FF3D00;
+  color: #4E75FF;
   animation: fill 1s ease-in infinite alternate;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
 }
 .loader::before , .loader::after {
   content: '';
